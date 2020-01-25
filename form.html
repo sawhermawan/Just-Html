@@ -6,20 +6,62 @@
 </head>
 <body>
 	<form action="">
-		<label for="username">Username :</label>
-		<input type="text" id="username">
-		<br>
-		<label for="password">Password :</label>
-		<input type="password" id="password">
-		<br>
-		<input type="radio" id="pria" name="jeniskelamin"> <label for="pria">Pria</label>
-		<input type="radio" id="wanita" name="jeniskelamin"> <label for="wanita">Wanita</label>
-		<br>
-		<input type="checkbox" id="music"> <label for="music">music</label>
-		<input type="checkbox" id="kelereng"> <label for="kelereng">main kelereng</label>
-		<input type="checkbox" id="naek_gunung"> <label for="naek_gunung">naek gunung</label>
-		<br>
-		<button type="submit">Kiriiimm</button>
+		<table border="0">
+			<tr>
+				<td><label for="username">Username :</label></td>
+				<td><input type="text" id="username"></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<br>
+			<tr>
+				<td><label for="password">Password :</label></td>
+				<td><input type="password" id="password"></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<br>
+			<tr>
+				<td><label for="">jenis kelamin :</label></td>
+				<td ><input type="radio" id="pria" name="jeniskelamin"> <label for="pria">Pria</label></td>
+				<td ><input type="radio" id="wanita" name="jeniskelamin"> <label for="wanita">Wanita</label></td>
+				<td></td>
+			</tr>
+			<br>
+			<tr>
+			<td><label for="">Hobi :</label></td>		
+				<td><input type="checkbox" id="music"> <label for="music">music</label></td>
+				<td colspan="2"><input type="checkbox" id="kelereng"> <label for="kelereng">sport</label></td>
+				<td><input type="checkbox" id="naek_gunung"> <label for="naek_gunung">naek gunung</label></td>
+			</tr>
+			<br>
+			<tr>
+				<td><label for="area">Curhatan Pribadi :</label></td>
+				<td><textarea name="" id="area" cols="30" rows="10"></textarea></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<br>
+			<tr>
+				<td><label for="kota">Pilih Kota :</label></td>
+				<td><select name="" id="kota">
+					<option>Pilih Kota</option>
+					<option value="">Jakarta</option>
+					<option value="">Bandung</option>
+					<option value="">Surabaya</option>
+					<option value="">Medan</option>
+				</select></td>
+				<td></td>
+				<td></td>
+			</tr>
+			
+		</table>
+		<table border="0" >
+			<tr>
+				<td align="center" ><button type="submit">Kiriiimm</button></td>
+
+			</tr>
+		</table>
 	</form>
 </body>
 </html>
